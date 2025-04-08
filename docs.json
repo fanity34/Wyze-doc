@@ -1,0 +1,82 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "WyzeHost",
+  "theme": "mint",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#3654f8",
+    "light": "#5c63fa",
+    "dark": "#3449d9"
+  },
+  "navigation": {
+    "pages": [
+      {
+        "group": "Bem-vindo",
+        "pages": [
+          "introduction"
+        ]
+      },
+      {
+        "group": "Painel de controle",
+        "pages": [
+          "painel/trocar-senha-vps", "painel/formatar-vps", "painel/upgrade"
+        ]
+      },
+      {
+        "group": "Tutoriais",
+        "pages": [
+          "vps", "fivem", "dominio"
+          
+        ]
+      },
+      {
+        "group": "Empresa",
+        "pages": [
+          "suporte", "faq"
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Nosso Discord",
+          "icon": "discord",
+          "href": "https://discord.gg/x3qFazUTZ7"
+        },
+        {
+          "anchor": "Nosso YouTube",
+          "icon": "youtube",
+          "href": "https://www.youtube.com/@WyzeHost"
+        },
+        {
+          "anchor": "Siga no Instagram",
+          "icon": "instagram",
+          "href": "https://www.instagram.com/wyze.host"
+        }
+      ]
+    }
+  },
+  "navbar": {
+    "primary": {
+      "label": "Area do cliente", 
+      "href": "https://financeiro.wyzehost.com.br/login", 
+      "type": "button"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/u3ZJAEPbx4",
+      "youtube": "https://www.youtube.com/c/WyzeHost",
+      "instagram": "https://www.instagram.com/wyze.host",
+      "facebook": "https://facebook.com/WyzeHost",
+      "twitter": "https://twitter.com/WyzeHost"
+    }
+  },  
+  "seo": {
+    "indexing": "all"
+  }
+}

@@ -1,0 +1,32 @@
+---
+title: Como ativar o Windows na sua VPS
+description: 'Neste guia, mostraremos como ativar o período de teste gratuito do windows.'
+---
+
+## Guia em vídeo:
+<iframe
+  width="100%"
+  height="422"
+  src="https://www.youtube.com/embed/v5OfbL3d6TM?si=AfSm4RI_ylxZ-4E4"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+## Passo a passo (Versão escrita)
+1. Na barra de tarefas, digite **cmd**.
+2. Selecione o aplicativo **Prompt de Comando**.
+
+<img
+  className="block"
+  src="/images/cmd.png"
+  alt="Conexão remota"
+/>
+
+3. No Prompt de Comando, digite o seguinte comando: `slmgr.vbs -rearm`.
+4. Logo em seguida basta **reiniciar** o seu vps.
+
+<Check> 
+Após o reinício do servidor, a licença do Windows Server será prorrogada por mais 180 dias gratuitos.
+</Check>
